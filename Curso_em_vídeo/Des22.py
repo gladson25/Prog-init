@@ -1,0 +1,7 @@
+#Fatiamento de String, Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join()
+ncompleto = str(input('Informe o seu nome completo: ')).strip()
+print(f'Seu nome todo em maiúsculo: {ncompleto.upper()}')
+print(f'Seu nome todo em minusculoa: {ncompleto.lower()}')
+print('Quantas letras: {}'.format(len(ncompleto) - ncompleto.count(' ')))
+nseparado = ncompleto.split()
+print(f'O primeiro nome tem {len(nseparado[0])} letras')
